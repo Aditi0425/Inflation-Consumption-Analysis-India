@@ -1,11 +1,25 @@
-# Inflation-Consumption-Analysis-India
-Macroeconomic analytics project analyzing inflation, purchasing power, and household consumption in India using SQL, R, and Power BI.
 # Inflation, Purchasing Power & Household Consumption Analysis in India (2013–2025)
 
-## 📌 Executive Summary
-* **The Problem:** Quantifying how overlapping economic shocks (food/fuel inflation, income shifts, and COVID-19) altered Indian household spending over a 12-year period.
-* **The Action:** Built an end-to-end pipeline using **MySQL** for regime classification, **R** for multiple linear regression diagnostics, and **Power BI** for macroeconomic tracking.
-* **The Impact:** Isolated purchasing power as the #1 driver of consumption growth and statistically validated the severe spending contraction during the pandemic.
+## Overview
+
+This project analyzes how inflation and purchasing power influence household consumption expenditure in India using quarterly macroeconomic data from 2013–2025. The study combines SQL analytics, econometric modeling in R, and Power BI visualization to examine consumption behavior across pre-COVID, COVID, and post-COVID periods.
+
+---
+
+## Tools & Technologies Used
+
+|Tool | Purpose|
+|-------- | --------| 
+|Excel | Data cleaning, preprocessing, quarterly aggregation|
+|SQL (MySQL) | Database creation and exploratory analysis|
+|R (RStudio) | Econometric modeling and diagnostic testing|
+|Power BI | Interactive dashboard visualization|
+
+---
+
+## Project Workflow
+
+Data Collection → Data Cleaning → SQL Analysis → Econometric Modeling → Dashboard Visualization
 
 ---
 
