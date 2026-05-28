@@ -17,9 +17,17 @@ This project analyzes how inflation and purchasing power influence household con
 
 ---
 
-## Project Workflow
+## 📊 Dashboard Preview
+* recruiters love visuals first. Put your best screenshot right here!*
 
-Data Collection → Data Cleaning → SQL Analysis → Econometric Modeling → Dashboard Visualization
+![Power BI Dashboard Executive View](visuals/dashboard_screenshot.png)
+
+---
+
+## Key Analytical Insights
+• Multiple linear regression in R proved that **Purchasing Power Growth (PCI)** has the strongest positive, statistically significant relationship with consumption expenditure.
+• SQL analysis revealed that food inflation was the most volatile consumer stress factor, consistently outpacing housing and fuel across a majority of quarters.
+• The COVID-19 dummy variable confirmed weaker consumption growth and higher macroeconomic volatility.
 
 ---
 
@@ -34,21 +42,15 @@ Data Collection → Data Cleaning → SQL Analysis → Econometric Modeling → 
 
 ---
 
-## Key Analytical Insights
-• Multiple linear regression in R proved that **Purchasing Power Growth (PCI)** has the strongest positive, statistically significant relationship with consumption expenditure.
-• SQL analysis revealed that food inflation was the most volatile consumer stress factor, consistently outpacing housing and fuel across a majority of quarters.
-• The COVID-19 dummy variable confirmed weaker consumption growth and higher macroeconomic volatility.
+## Project Workflow
+
+```text
+Data Collection → Data Cleaning → SQL Analysis → Econometric Modeling → Dashboard Visualization
+```
 
 ---
 
-## 📊 Dashboard Preview
-* recruiters love visuals first. Put your best screenshot right here!*
-
-![Power BI Dashboard Executive View](visuals/dashboard_screenshot.png)
-
----
-
-## 📁 Repository Structure
+## Repository Structure
 ```text
 ├── data/          # Cleaned quarterly datasets (Excel)
 ├── sql/           # Queries for inflation trends & regime mapping
@@ -56,3 +58,8 @@ Data Collection → Data Cleaning → SQL Analysis → Econometric Modeling → 
 ├── powerbi/       # Interactive dashboard file (.pbix)
 └── visuals/       # Dashboard screenshots
 ```
+
+---
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
