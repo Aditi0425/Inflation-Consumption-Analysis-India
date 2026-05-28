@@ -23,32 +23,28 @@ Data Collection → Data Cleaning → SQL Analysis → Econometric Modeling → 
 
 ---
 
+## Key Analysis Performed
+• Inflation trend and volatility analysis
+• Consumption expenditure analysis
+• COVID vs non-COVID comparison
+• Purchasing power analysis
+• Multiple linear regression modeling
+• Diagnostic testing (VIF, Breusch-Pagan, Durbin-Watson)
+• Interactive Power BI dashboard creation
+
+---
+
+## Key Analytical Insights
+• Multiple linear regression in R proved that **Purchasing Power Growth (PCI)** has the strongest positive, statistically significant relationship with consumption expenditure.
+• SQL analysis revealed that food inflation was the most volatile consumer stress factor, consistently outpacing housing and fuel across a majority of quarters.
+• The COVID-19 dummy variable confirmed weaker consumption growth and higher macroeconomic volatility.
+
+---
+
 ## 📊 Dashboard Preview
 * recruiters love visuals first. Put your best screenshot right here!*
 
 ![Power BI Dashboard Executive View](visuals/dashboard_screenshot.png)
-
----
-
-## 💡 Key Analytical Insights
-* **Income Over Inflation:** Multiple linear regression in R proved that **Purchasing Power Growth (PCI)** has the strongest positive, statistically significant relationship with consumption expenditure.
-* **Food Inflation Dominance:** SQL analysis revealed that food inflation was the most volatile consumer stress factor, consistently outpacing housing and fuel across a majority of quarters.
-* **Pandemic Volatility:** The COVID-19 dummy variable confirmed a severe negative shock to baseline consumption growth, paired with record-high macroeconomic volatility.
-
----
-
-## 🛠️ Technical Deep Dive
-
-### 1. Database Exploration (MySQL)
-Used Window functions and complex `CASE` statements to classify macroeconomic stress regimes.
-```sql
--- Paste 5-10 lines of your best SQL query here (e.g., your COVID comparison or moving average)
-```
-
-### 2. Econometric Modeling (R)
-Ran Ordinary Least Squares (OLS) regression and performed strict diagnostic filters to ensure model validity.
-* **Multicollinearity Check:** Passed via Variance Inflation Factor (VIF).
-* **Autocorrelation & Heteroskedasticity:** Verified using Durbin-Watson and Breusch-Pagan testing.
 
 ---
 
