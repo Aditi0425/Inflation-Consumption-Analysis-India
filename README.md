@@ -19,7 +19,7 @@ This project analyzes how inflation and purchasing power influence household con
 
 ## 📊 Dashboard Preview
 
-![Power BI Dashboard Executive View](visuals/dashboard_screenshot.png)
+<img width="2767" height="1600" alt="Ic project power BI updated one-2" src="https://github.com/user-attachments/assets/aa1616b7-f2a4-4c72-b154-beaf745addb2" />
 
 ---
 
