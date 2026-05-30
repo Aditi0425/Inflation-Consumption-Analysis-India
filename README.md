@@ -18,27 +18,26 @@ This project analyzes how inflation and purchasing power influence household con
 ---
 
 ## 📊 Dashboard Preview
-* recruiters love visuals first. Put your best screenshot right here!*
 
 ![Power BI Dashboard Executive View](visuals/dashboard_screenshot.png)
 
 ---
 
 ## Key Analytical Insights
-• Multiple linear regression in R proved that **Purchasing Power Growth (PCI)** has the strongest positive, statistically significant relationship with consumption expenditure.
-• SQL analysis revealed that food inflation was the most volatile consumer stress factor, consistently outpacing housing and fuel across a majority of quarters.
-• The COVID-19 dummy variable confirmed weaker consumption growth and higher macroeconomic volatility.
+• Multiple linear regression in R proved that **Purchasing Power Growth (PCI)** has the strongest positive, statistically significant relationship with consumption expenditure. <br>
+• SQL analysis revealed that food inflation was the most volatile consumer stress factor, consistently outpacing housing and fuel across a majority of quarters. <br>
+• The COVID-19 dummy variable confirmed weaker consumption growth and higher macroeconomic volatility. <br>
 
 ---
 
 ## Key Analysis Performed
-• Inflation trend and volatility analysis
-• Consumption expenditure analysis
-• COVID vs non-COVID comparison
-• Purchasing power analysis
-• Multiple linear regression modeling
-• Diagnostic testing (VIF, Breusch-Pagan, Durbin-Watson)
-• Interactive Power BI dashboard creation
+• Inflation trend and volatility analysis <br>
+• Consumption expenditure analysis <br>
+• COVID vs non-COVID comparison <br>
+• Purchasing power analysis <br>
+• Multiple linear regression modeling <br>
+• Diagnostic testing (VIF, Breusch-Pagan, Durbin-Watson) <br>
+• Interactive Power BI dashboard creation <br>
 
 ---
 
