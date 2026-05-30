@@ -6,6 +6,15 @@ This project analyzes how inflation and purchasing power influence household con
 
 ---
 
+## Dataset
+
+- Frequency: Quarterly
+- Period: 2013–2025
+- Source: Official Indian macroeconomic statistics (MoSPI and related government publications)
+- Observations: 52 quarters
+
+---
+
 ## Tools & Technologies Used
 
 |Tool | Purpose|
@@ -24,9 +33,9 @@ This project analyzes how inflation and purchasing power influence household con
 ---
 
 ## Key Analytical Insights
-• Multiple linear regression in R proved that **Purchasing Power Growth (PCI)** has the strongest positive, statistically significant relationship with consumption expenditure. <br>
-• SQL analysis revealed that food inflation was the most volatile consumer stress factor, consistently outpacing housing and fuel across a majority of quarters. <br>
-• The COVID-19 dummy variable confirmed weaker consumption growth and higher macroeconomic volatility. <br>
+• Multiple linear regression results showed that **Purchasing Power Growth (PCI)** has the strongest positive and statistically significant relationship with household consumption expenditure. <br>
+• Food inflation emerged as the dominant inflation component across a majority of quarters and played an important role in explaining consumption dynamics. <br>
+• COVID disruption periods were associated with weaker consumption growth and increased macroeconomic volatility. <br>
 
 ---
 
@@ -51,12 +60,23 @@ Data Collection → Data Cleaning → SQL Analysis → Econometric Modeling → 
 
 ## Repository Structure
 ```text
-├── data/          # Cleaned quarterly datasets (Excel)
-├── sql/           # Queries for inflation trends & regime mapping
-├── r-analysis/    # R scripts for OLS regression & residual diagnostics
-├── powerbi/       # Interactive dashboard file (.pbix)
-└── visuals/       # Dashboard screenshots
+├── data/                   # Cleaned quarterly datasets (Excel)
+├── sql/                    # Queries for inflation trends & regime mapping
+├── r-analysis/             # R scripts for OLS regression & residual diagnostics
+├── powerbi/                # Interactive dashboard file (.pbix)
+└── dashboard-preview/      # Dashboard screenshots
 ```
+
+---
+
+## Skills Demonstrated
+
+- Data Cleaning & Transformation
+- SQL Analytics
+- Econometric Modeling
+- Statistical Diagnostics
+- Business Intelligence & Dashboarding
+- Economic Data Interpretation
 
 ---
 
